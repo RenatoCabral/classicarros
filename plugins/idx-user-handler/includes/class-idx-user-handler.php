@@ -149,9 +149,14 @@ class Idx_User_Handler {
 
 		$this->loader->add_action( 'init', $plugin_public, 'idx_process_login' );
 		$this->loader->add_action( 'init', $plugin_public, 'idx_process_registration' );
-		$this->loader->add_action( 'init',  $plugin_public, 'idx_process_password_recover'  );
-		$this->loader->add_action( 'init' , $plugin_public, 'idx_process_password_change'  );
+		$this->loader->add_action( 'init', $plugin_public, 'idx_process_password_recover' );
+		$this->loader->add_action( 'init', $plugin_public, 'idx_process_password_change' );
+
+
+		//verification email
+		$this->loader->add_action( 'init', $plugin_public, 'my_init' );
 	}
+
 
 	/**
 	 * Run the loader to execute all of the hooks with WordPress.

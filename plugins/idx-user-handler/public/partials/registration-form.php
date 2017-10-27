@@ -29,16 +29,9 @@
                     <label for="icon_prefix">Telefone</label>
                 </div>
             </div>
-            <div class="row">
-                <div class="input-field col s12">
-                    <i class="material-icons prefix">lock_outline</i>
-                    <input required id="icon_telephone" name="idx_user_password" type="password" class="validate">
-                    <label for="icon_telephone">Senha</label>
-                </div>
-            </div>
 
             <input type="hidden" name="idx_register_nonce" value="<?= wp_create_nonce( 'idx-register-nonce' ); ?>"/>
-            <input type="hidden" name="url_redirect" id="no-single" value="<?= home_url(); ?>/sobre">
+            <input type="hidden" name="url_redirect" id="no-single" value="<?= home_url(); ?>">
             <input class="waves-effect waves-light btn right" type="submit" value="Criar Conta"/>
         </form>
 

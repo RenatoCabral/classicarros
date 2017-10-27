@@ -16,9 +16,9 @@
                     <input type="hidden" name="idx_login_nonce" value="<?= wp_create_nonce( 'idx-login-nonce' ); ?>"/>
                 </div>
             </div>
-            <input type="hidden" name="url_redirect" value="<?= home_url() ?>">
+            <input type="hidden" name="url_redirect" value="<?= home_url() ?>/sobre">
             <a href="<?= get_permalink( get_page_by_path( 'recuperar-senha' ) ) ?>">Esqueceu sua senha?</a>
-            <a id="idx_login_submit" class="waves-effect waves-light btn right">Acessar</a>
+            <input id="idx_login_submit" class="waves-effect waves-light btn right" type="submit" value="Acessar"/>
         </form>
 
     </div>
