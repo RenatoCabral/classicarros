@@ -379,6 +379,7 @@ select {
     opacity: 1;
 }
 
+
 .view-more-button {
     display: block;
     margin: 0 auto;
@@ -411,6 +412,7 @@ select {
 !important;
 }
 
+
 /********Fim  veiculos_destaque**************/
 
 /*********************footer***********************/
@@ -442,6 +444,7 @@ select {
 
 .img-thumb-single img {
     cursor: pointer;
+    width: 150px !important;
 }
 
 .img-thumb-single img:hover {
@@ -887,6 +890,17 @@ select {
     line-height: 30px;
 }
 
+.card-vehicles{
+    min-height: 509px!important;
+}
+
+.img-slider{
+    margin: 0 auto;
+}
+
+.img-slide-full {
+    margin: 0 auto;
+}
 /*****************************media queries*************************/
 
 @media only screen and (max-width: 1024px) {
@@ -912,10 +926,6 @@ select {
 
     .description-vehicle, .description-vehicle p {
         border: none;
-    }
-
-    .img-slide-full {
-        margin: 0 auto;
     }
 
     .anuncie-mobile {

@@ -30,17 +30,19 @@ $('.slider-for').slick({
     slidesToScroll: 1,
     arrows: false,
     fade: true,
-    asNavFor: '.slider-nav'
+    dots: true
+    // asNavFor: '.slider-nav'
 });
 $('.slider-nav').slick({
-    slidesToShow: 3,
+    infinite: true,
+    slidesToShow: 5,
     slidesToScroll: 1,
     asNavFor: '.slider-for',
     arrows: false,
     dots: true,
     centerMode: true,
     focusOnSelect: true,
-    adaptiveHeight: false
+    adaptiveHeight: true
 });
 
 

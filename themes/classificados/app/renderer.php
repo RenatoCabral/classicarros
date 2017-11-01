@@ -17,10 +17,10 @@ function render_slide_home() {
 
         <a style="<?= empty( $link ) ? 'cursor:default;' : '' ?>" href="<?= ! empty( $link ) ? $link : '#' ?>"
            target="<?= $target ?>">
-            <img class="responsive-img" src="<?= $thumb_url[0]; ?>">
+            <img class="responsive-img img-slider" src="<?= $thumb_url[0]; ?>">
         </a>
 	<?php }
-	wp_reset_query();
+
 }
 
 function render_blog( $img_src ) {
@@ -195,12 +195,12 @@ function display_gallery($post_id) { ?>
 
         <!-- Thumb -->
 		<?php if ( ! empty( $images ) ) { ?>
-            <div class="slider-vehicle-details img-thumb-single slider-nav">
-				<?php for ( $i = 0; $i < count( $images ); $i ++ ) {
-					$url_thumb = wp_get_attachment_image_src( $images [ $i ], 'thumb-single-slide-veiculo' ); ?>
-                    <img src="<?= $url_thumb[0] ?>" alt="<?php the_title(); ?>">
-				<?php } ?>
-            </div>
+<!--            <div class="slider-vehicle-details img-thumb-single slider-nav">-->
+<!--				--><?php //for ( $i = 0; $i < count( $images ); $i ++ ) {
+//					$url_thumb = wp_get_attachment_image_src( $images [ $i ], 'thumb-single-slide-veiculo' ); ?>
+<!--                    <img src="--><?//= $url_thumb[0] ?><!--" alt="--><?php //the_title(); ?><!--">-->
+<!--				--><?php //} ?>
+<!--            </div>-->
 		<?php } ?>
 
     </div>
@@ -269,7 +269,7 @@ function render_most_viewed() {
 	$query = new WP_Query(
 		[
 			'post_type'      => 'veiculo',
-			'posts_per_page' => 8,
+			'posts_per_page' => 16,
 			'orderby'        => 'random',
 			'meta_key'       => 'post_views_count',
 			'post_status'    => 'publish',
@@ -443,7 +443,7 @@ function render_search_veiculo( $code = '' ) {
 			}
 			post_pagination();
 		} else {
-			echo '<p style="text-align: center">Não há imóveis de acordo com sua pesquisa</p>';
+			echo '<p style="text-align: center">Não há veículos de acordo com sua pesquisa</p>';
 		}
 	}
 }

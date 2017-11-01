@@ -8,12 +8,12 @@ $year       = get_post_meta( $post_id, 'year', true );
 
 
 $thumb_id  = get_post_thumbnail_id( $post_id );
-$thumb_url = wp_get_attachment_image_src( $thumb_id, 'thumb-news' );
+$thumb_url = wp_get_attachment_image_src( $thumb_id, 'thumb-single-slide-veiculo' );
 $img_src   = has_post_thumbnail() ? $thumb_url[0] : get_bloginfo( 'template_directory' ) . "/img/no-image-veiculo-thumb.jpg";
 
 ?>
 
-<div class="col s12 m12 l3">
+<div class="col s6 m6 l3 div-card-vehicles">
 
     <div class="card z-depth-1 card-vehicles">
         <div class="card-image card-image-vehicles">
