@@ -1,4 +1,4 @@
-<div class="col s12 m12 l3 fipe">
+<div class="col s12 m12 l2 fipe">
         <h5 class="title_fipe">Consulta FIPE</h5>
 
         <div class="row fipe_icons">

@@ -7,12 +7,12 @@ e a segunda variavel é a 'posts_per_page', que está recebendo a quantidade de 
 exibidos.*/
 $query = new WP_Query([
     'post_type' => 'blog',
-    'posts_per_page' => 8
+    'posts_per_page' => 3
 ]);
 
 
 if($query->have_posts()){ ?>
-    <div class="col s12 m9 l9">
+    <div class="col s12 m12 l12">
         <h5 class="title_news">Blog</h5>
         <?php while ($query->have_posts()) {
             $query->the_post();

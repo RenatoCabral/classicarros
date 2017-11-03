@@ -402,6 +402,12 @@ select {
     padding: 10px !important;
 }
 
+.card-content-title:hover{
+    font-weight: bold;
+    color: #1d7d74!important;
+
+}
+
 .price {
     color: #26a69a !important;
     font-size: 20px;
@@ -620,6 +626,11 @@ select {
     max-width: 800px;
     height: auto;
 }
+
+/*.cards_news_home{*/
+    /*width: 480px!important;*/
+    /*height: 209px!important;*/
+/*}*/
 
 /*********************advanced search****************/
 

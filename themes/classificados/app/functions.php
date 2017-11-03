@@ -480,3 +480,11 @@ function get_years_by_model() {
 	die();
 }
 
+ function technig_the_content($content)
+  {
+    // Take the existing content and return a subset of characters it
+    return substr($content, 0, 100);
+  }
+
+  add_filter("the_content", "technig_the_content");
+
