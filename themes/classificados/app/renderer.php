@@ -42,7 +42,12 @@ function render_blog( $img_src ) {
 <!--        </div>-->
 <!--    </div>-->
 
-    <div class="col s12 m6 l4">
+    <div class="col s12 m12 l6">
+        <span class="card-title title-post-news">
+             <a href="<?php the_permalink(); ?>">
+                <?php the_title(); ?>
+             </a>
+        </span>
         <div class="card horizontal z-depth-1 cards_news_home">
             <div class="card-image image-post-blog waves-effect waves-block waves-light">
                 <a href="<?php the_permalink(); ?>">
@@ -51,12 +56,13 @@ function render_blog( $img_src ) {
             </div>
             <div class="card-stacked">
                 <div class="card-content news_paragraph">
-                    <span class="card-title activator grey-text text-darken-4">
-                        <a href="<?php the_permalink(); ?>"></a>
-                        <?php the_title(); ?>
-                    </span>
+<!--                    <span class="card-title activator grey-text text-darken-4">-->
+<!--                        <a href="--><?php //the_permalink(); ?><!--"></a>-->
+<!--                        --><?php //the_title(); ?>
+<!--                    </span>-->
                     <p><?= get_the_date(); ?></p>
-                    <p><?php the_content(); ?></p>
+                    <?php echo(limit_words(get_the_content(),10)); ?>
+<!--                    <p>--><?php //the_content(); ?><!--</p>-->
                 </div>
             </div>
         </div>

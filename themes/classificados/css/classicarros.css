@@ -627,10 +627,13 @@ select {
     height: auto;
 }
 
-/*.cards_news_home{*/
-    /*width: 480px!important;*/
-    /*height: 209px!important;*/
-/*}*/
+.title-post-news{
+    font-size: 20px;
+}
+
+.title-post-news a{
+    color: #1d7d74!important;
+}
 
 /*********************advanced search****************/
 

@@ -5,7 +5,6 @@ add_theme_support( 'post-thumbnails' );
 //Definindo dimensões padrão das imagens dos posts
 add_image_size('slide-home', '1500','409', true);
 add_image_size('thumb-news', '500','516', true);
-add_image_size('image-post-blog', '236','214', true);
 add_image_size('full-single-slide-veiculo', '728','380', true);
 add_image_size('thumb-single-slide-veiculo', '150','150', true);
 

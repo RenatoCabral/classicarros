@@ -3,8 +3,8 @@
             <?php
                 include 'partials/item-news-home.php';
 //                include 'partials/fipe-home.php';
-//                include 'partials/anuncie-home.php';
-//            include 'partials/help-home.php';
+                include 'partials/anuncie-home.php';
+            include 'partials/help-home.php';
             ?>
 
     </div>

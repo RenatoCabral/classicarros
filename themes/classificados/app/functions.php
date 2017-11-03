@@ -480,11 +480,19 @@ function get_years_by_model() {
 	die();
 }
 
- function technig_the_content($content)
-  {
-    // Take the existing content and return a subset of characters it
-    return substr($content, 0, 100);
-  }
+// function technig_the_content($content)
+//  {
+//    // Take the existing content and return a subset of characters it
+//    return substr($content, 0, 100);
+//  }
+//
+//  add_filter("the_content", "technig_the_content");
 
-  add_filter("the_content", "technig_the_content");
+    //limitar caracteres no texto dos post de noticias
+
+function limit_words($string, $word_limit) {
+  $words = explode(' ', $string, ($word_limit + 1));
+  if(count($words) > $word_limit) { array_pop($words); array_push($words, "..."); }
+  return implode(' ', $words);
+}
 
