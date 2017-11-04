@@ -34,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="anuncie-home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="anuncie-home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/anuncie-home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
@@ -56,13 +56,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="renderer.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="renderer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/renderer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="50" column="45" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="45" />
+            <state relative-caret-position="252">
+              <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
               <folding>
-                <marker date="1509727687291" expanded="true" signature="15151:15169" ph="..." />
+                <marker date="1509839433244" expanded="true" signature="15206:15224" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="503" column="25" lean-forward="false" selection-start-line="503" selection-start-column="25" selection-end-line="503" selection-end-column="25" />
+              <folding>
+                <marker date="1509839342987" expanded="true" signature="13244:13287" ph="SELECT nome ${$tablename}" />
+                <marker date="1509839342987" expanded="true" signature="13355:13453" ph="SELECT DISTI... ${$wpdb-&gt;postmeta}" />
               </folding>
             </state>
           </provider>
@@ -115,13 +128,13 @@
         <option value="$PROJECT_DIR$/partials/fipe-home.php" />
         <option value="$PROJECT_DIR$/news-fipe.php" />
         <option value="$PROJECT_DIR$/partials/help-home.php" />
-        <option value="$PROJECT_DIR$/app/functions.php" />
         <option value="$PROJECT_DIR$/css/classicarros.css" />
         <option value="$PROJECT_DIR$/partials/item-news-home.php" />
-        <option value="$PROJECT_DIR$/app/renderer.php" />
         <option value="$PROJECT_DIR$/app/partials/public/item-featured-vehicles.php" />
         <option value="$PROJECT_DIR$/app/actions.php" />
         <option value="$PROJECT_DIR$/partials/anuncie-home.php" />
+        <option value="$PROJECT_DIR$/app/functions.php" />
+        <option value="$PROJECT_DIR$/app/renderer.php" />
       </list>
     </option>
   </component>
@@ -140,10 +153,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1365" />
-    <option name="y" value="-4" />
-    <option name="width" value="1682" />
-    <option name="height" value="1055" />
+    <option name="x" value="855" />
+    <option name="y" value="278" />
+    <option name="width" value="1368" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -188,13 +201,6 @@
             <path>
               <item name="classificados" type="b2602c69:ProjectViewProjectNode" />
               <item name="classificados" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="classificados" type="b2602c69:ProjectViewProjectNode" />
-              <item name="classificados" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -231,12 +237,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509405281754</updated>
-      <workItem from="1509405287432" duration="33805000" />
+      <workItem from="1509405287432" duration="35741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33805000" />
+    <option name="totallyTimeSpent" value="35741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1365" y="-4" width="1682" height="1055" extended-state="6" />
@@ -250,7 +256,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23157895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23157895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -484,17 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="454" column="29" lean-forward="true" selection-start-line="454" selection-start-column="29" selection-end-line="454" selection-end-column="29" />
-          <folding>
-            <marker date="1509724513606" expanded="true" signature="13244:13287" ph="SELECT nome ${$tablename}" />
-            <marker date="1509724513606" expanded="true" signature="13355:13453" ph="SELECT DISTI... ${$wpdb-&gt;postmeta}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/public/item-featured-vehicles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -521,16 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/renderer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="50" column="45" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="45" />
-          <folding>
-            <marker date="1509727687291" expanded="true" signature="15151:15169" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/classicarros.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -544,6 +529,27 @@
         <state relative-caret-position="288">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="503" column="25" lean-forward="false" selection-start-line="503" selection-start-column="25" selection-end-line="503" selection-end-column="25" />
+          <folding>
+            <marker date="1509839342987" expanded="true" signature="13244:13287" ph="SELECT nome ${$tablename}" />
+            <marker date="1509839342987" expanded="true" signature="13355:13453" ph="SELECT DISTI... ${$wpdb-&gt;postmeta}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/renderer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="47" column="40" lean-forward="false" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <marker date="1509839433244" expanded="true" signature="15206:15224" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

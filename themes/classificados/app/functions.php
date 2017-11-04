@@ -488,11 +488,23 @@ function get_years_by_model() {
 //
 //  add_filter("the_content", "technig_the_content");
 
-    //limitar caracteres no texto dos post de noticias
+
+//limitar caracteres no texto dos post de noticias
 
 function limit_words($string, $word_limit) {
   $words = explode(' ', $string, ($word_limit + 1));
   if(count($words) > $word_limit) { array_pop($words); array_push($words, "..."); }
   return implode(' ', $words);
 }
+
+//limitar caracteres título post noticias
+
+function wp_customTitle($limit){
+    $title = get_the_title(isset($post->ID));
+    if (strlen($title) > $limit){
+        $title = substr($title, 0, $limit) . '...';
+    }
+    echo $title;
+}
+
 

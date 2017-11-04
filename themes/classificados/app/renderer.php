@@ -45,7 +45,8 @@ function render_blog( $img_src ) {
     <div class="col s12 m12 l6">
         <span class="card-title title-post-news">
              <a href="<?php the_permalink(); ?>">
-                <?php the_title(); ?>
+                 <?php wp_customTitle(45); ?>
+<!--                --><?php //the_title(); ?>
              </a>
         </span>
         <div class="card horizontal z-depth-1 cards_news_home">
