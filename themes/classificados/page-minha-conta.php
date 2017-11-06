@@ -7,7 +7,7 @@
             <div class="col s12 m12 l12">
                 <div class="col s6 m12 l6 offset-l3">
 
-                    <ul id="tabs-swipe-demo" class="tabs">
+                    <ul id="tabs-swipe-demo" class="tabs tabs-login-create-count">
                         <li class="tab col s3"><a href="#test-swipe-1">Login</a></li>
                         <li class="tab col s3"><a class="active" href="#test-swipe-2">Criar Conta</a></li>
                     </ul>

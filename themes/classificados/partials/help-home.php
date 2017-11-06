@@ -1,11 +1,10 @@
-<div class="col s12 m6 l2"><br><br><br>
-    <div class="card-panel blue-grey darken-1 card-anuncie-home">
-        <div class="card-content white-text">
-            <span class="card-title">Ainda tem duvidas?</span>
-            <p>Fale Conosco</p>
-            <p>Contato</p>
-            <p>Dúvidas</p>
+<div class="col s12 m6 l3"><br><br><br>
+    <div class="card-panel z-depth-1 card-anuncie-home">
+        <div class="card-content">
+            <h5 class="card-title">Tabela FIPE</h5>
+            <p>Veja o preço do veículo que você deseja comprar ou vender!</p>
         </div>
+        <a class="waves-effect waves-light btn" href="http://veiculos.fipe.org.br/" target="_blank"">Consulte agora</a>
 <!--        <div class="card-action">-->
 <!--            <a href="#">Contato</a>-->
 <!--            <a href="#">Dúvidas frequentes</a>-->

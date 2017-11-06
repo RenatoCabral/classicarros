@@ -660,6 +660,21 @@ select {
     height: 460px !important;
 }
 
+.tabs-login-create-count a{
+    color: #1d7d74 !important;
+
+}
+
+.tabs-login-create-count .indicator{
+    background-color: #1d7d74 !important;
+
+}
+
+/******************recuperar senha***********/
+.btn-enviar-recover-password{
+    margin-right: 10px;
+}
+
 /***************sobre***************/
 .div-pag {
     height: 600px !important;
@@ -981,6 +996,8 @@ select {
         margin-top: 12px !important;
     }
 }
+
+
 
 
 

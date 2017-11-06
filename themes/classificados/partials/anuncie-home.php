@@ -2,7 +2,7 @@
     <div class="card-panel z-depth-1 card-anuncie-home">
         <div class="card-content">
             <a href=""><img src="icone-vender-carro.png" alt=""></a>
-            <span class="card-title">Venda seu veículo</span>
+            <h5  class="card-title">Venda seu veículo</h5>
             <p>Anuncie no ClassiCarros e seu carro será visto por pessoas de todo o Brasil.</p>
             <p>Anuncio seguro e venda rápido!</p>
         </div>
