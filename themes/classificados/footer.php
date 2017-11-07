@@ -1,7 +1,35 @@
 <footer class="page-footer footer-classificados">
     <div class="container-fluid">
         <div class="row footer-row">
-
+            <div class="col s12 m4 l4">
+                <div class="card cards_footer">
+                    <div class="card-content">
+                        <h5 class="title_footer">Sobre nós</h5>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.
+                            Cursus dolore voluptates nullam, vivamus veniam, voluptas asperiores asperiores. Magnis in, tenetur. Ipsum voluptate. In nibh illo, porttitor,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card pink">
+                    <div class="card-content">
+                        <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4">
+                <div class="card pink">
+                    <div class="card-content">
+                        <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                </div>
+            </div>
             <p>Copyright Renato</p>
 
         </div>
