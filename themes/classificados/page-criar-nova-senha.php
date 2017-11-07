@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 
-<div class="container-fluid">
+<div class="container">
 	<div class="row">
 		<div class="col s12 m12 l12">
-			<div class="col s12 m12 l6 doubts-title">
+			<div class="col s12 m12 l12 doubts-title">
 				<div class="row ">
 					<!--Pegar o título da página-->
 					<h1><?php the_title(); ?></h1>
