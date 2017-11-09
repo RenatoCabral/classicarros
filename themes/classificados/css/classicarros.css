@@ -444,6 +444,10 @@ select {
     color: #000000!important;
 }
 
+.div-footer{
+    min-height: 220px!important;
+}
+
 /****************Fim footer*****************/
 
 /*********** detalhes dos veiculos**********/
@@ -488,7 +492,7 @@ select {
 }
 
 .vehicle-details-icon:hover {
-    color: #1d7d74;
+    color: #1d7d74!important;
 }
 
 .vehicle-details-tabs a {

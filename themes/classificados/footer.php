@@ -3,7 +3,7 @@
         <div class="row footer-row">
             <div class="col s12 m4 l4">
                 <div class="card cards_footer">
-                    <div class="card-content">
+                    <div class="card-content div-footer">
                         <h5 class="title_footer">Sobre nós</h5>
                         <p>I am a very simple card. I am good at containing small bits of information.
                             I am convenient because I require little markup to use effectively.
@@ -12,9 +12,9 @@
                 </div>
             </div>
             <div class="col s12 m4 l4">
-                <div class="card pink">
-                    <div class="card-content">
-                        <span class="card-title">Card Title</span>
+                <div class="card cards_footer">
+                    <div class="card-content div-footer">
+                        <h5 class="title_footer">Título</h5>
                         <p>I am a very simple card. I am good at containing small bits of information.
                             I am convenient because I require little markup to use effectively.
                         </p>
@@ -22,15 +22,15 @@
                 </div>
             </div>
             <div class="col s12 m4 l4">
-                <div class="card pink">
-                    <div class="card-content">
-                        <span class="card-title">Card Title</span>
+                <div class="card cards_footer">
+                    <div class="card-content div-footer">
+                        <h5 class="title_footer">Título</h5>
                         <p>I am a very simple card. I am good at containing small bits of information.
                             I am convenient because I require little markup to use effectively.</p>
                     </div>
                 </div>
             </div>
-            <p>Copyright Renato</p>
+<!--            <p>Copyright Renato</p>-->
 
         </div>
     </div>

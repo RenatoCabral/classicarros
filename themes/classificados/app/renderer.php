@@ -105,35 +105,41 @@ function display_details( $year, $km, $color, $doors, $fuel, $exchange, $conserv
 	<?php }
 	if ( ! empty( $km ) ) { ?>
         <div class=" col s6 m6 l6 vehicle-details">
-            <p><i class="material-icons small left vehicle-details-icon">av_timer</i><strong>KM:</strong> <?= $km ?>
+            <p>
+<!--                <i class="material-icons small left vehicle-details-icon">av_timer</i><strong>KM:</strong> --><?//= $km ?>
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/icon-km-32.png" class="vehicle-details-icon"><strong>Km: </strong><?= $km ?>
             </p>
         </div>
 	<?php }
 	if ( ! empty( $color ) ) { ?>
         <div class=" col s6 m6 l6 vehicle-details">
             <p>
-                <i class="material-icons small left vehicle-details-icon">color_lens</i><strong>Cor:</strong> <?= $color ?>
+<!--                <i class="material-icons small left vehicle-details-icon">color_lens</i><strong>Cor:</strong> --><?//= $color ?>
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/icon-color-32.png" class="vehicle-details-icon"><strong>Cor: </strong><?= $color ?>
             </p>
         </div>
 	<?php }
 	if ( ! empty( $doors ) ) { ?>
         <div class=" col s6 m6 l6 vehicle-details">
             <p>
-                <i class="material-icons small left vehicle-details-icon">local_gas_station</i><strong>Portas: </strong> <?= $doors ?>
+<!--                <i class="material-icons small left vehicle-details-icon">local_gas_station</i><strong>Portas: </strong> --><?//= $doors ?>
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/icon-car-door-32.png" class="vehicle-details-icon"><strong>Portas: </strong><?= $doors ?>
             </p>
         </div>
 	<?php }
 	if ( ! empty( $fuel ) ) { ?>
         <div class=" col s6 m6 l6 vehicle-details">
             <p>
-                <i class="material-icons small left vehicle-details-icon">local_gas_station</i><strong>Combústivel:</strong> <?= $fuel ?>
+<!--                <i class="material-icons small left vehicle-details-icon">local_gas_station</i><strong>Combústivel:</strong> --><?//= $fuel ?>
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/icon-gas-station-32.png" class="vehicle-details-icon"><strong>Combústivel:</strong><?= $fuel ?>
             </p>
         </div>
 	<?php }
 	if ( ! empty( $exchange ) ) { ?>
         <div class=" col s6 m6 l6 vehicle-details">
             <p>
-                <i class="material-icons small left vehicle-details-icon">directions_car</i><strong>Câmbio: </strong><?= $exchange ?>
+<!--                <i class="material-icons small left vehicle-details-icon">directions_car</i><strong>Câmbio: </strong>--><?//= $exchange ?>
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/icon-gearshift-32.png" class="vehicle-details-icon"><strong>Câmbio:</strong><?= $exchange ?>
             </p>
         </div>
 	<?php }
@@ -146,14 +152,17 @@ function display_details( $year, $km, $color, $doors, $fuel, $exchange, $conserv
 	<?php }
 	if ( ! empty( $final_place ) ) { ?>
         <div class=" col s6 m6 l6 vehicle-details">
-            <p><i class="material-icons small left vehicle-details-icon">insert_invitation</i><strong>Final
-                    Placa:</strong> <?= $final_place ?></p>
+            <p>
+<!--                <i class="material-icons small left vehicle-details-icon">insert_invitation</i><strong>Final Placa:</strong> --><?//= $final_place ?>
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/icon-placa-32.png" class="vehicle-details-icon"><strong>Final Placa:</strong><?= $final_place?>
+            </p>
         </div>
 	<?php }
 	if ( ! empty( $motor ) ) { ?>
         <div class=" col s6 m6 l6 vehicle-details">
             <p>
-                <i class="material-icons small left vehicle-details-icon">insert_invitation</i><strong>Motor:</strong> <?= $motor ?>
+<!--                <i class="material-icons small left vehicle-details-icon">insert_invitation</i><strong>Motor:</strong> --><?//= $motor ?>
+                <img src="<?php echo get_bloginfo('template_url') ?>/img/icon-motor-32.png" class="vehicle-details-icon"><strong>Motor:</strong><?= $motor ?>
             </p>
         </div>
 	<?php }
