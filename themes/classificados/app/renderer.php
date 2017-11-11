@@ -97,21 +97,21 @@ function display_details( $year, $km, $color, $doors, $fuel, $exchange, $conserv
         <div class=" col s12 m4 l6 vehicle-details">
 
             <img src="<?= get_bloginfo('template_url') ?>/img/icon-small-calendar-32.png" class="vehicle-details-icon  responsive-img">
-            <p class="icon-text">Cod: <?= $post_id ?></p>
+            <p class="icon-text">Cod: <b><?= $post_id ?></b></p>
 
         </div>
         <?php if ( ! empty( $year ) ) { ?>
             <div class=" col s12 m4 l6 vehicle-details">
 
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-small-calendar-32.png" class="vehicle-details-icon  responsive-img">
-                <p class="icon-text"><strong>Ano: </strong><?= $year ?></p>
+                <p class="icon-text">Ano: <b><?= $year ?></b></p>
             </div>
         <?php }
         if ( ! empty( $km ) ) { ?>
             <div class="col s12 m4 l6 vehicle-details">
 
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-km-32.png" class="vehicle-details-icon  responsive-img">
-                <p class="icon-text"><strong>Km: </strong><?= $km ?></p>
+                <p class="icon-text">Km: <b><?= $km ?></b></p>
 
             </div>
         <?php }
@@ -119,49 +119,49 @@ function display_details( $year, $km, $color, $doors, $fuel, $exchange, $conserv
             <div class=" col s12 m4 l6 vehicle-details">
 
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-color-32.png" class="vehicle-details-icon responsive-img">
-                <p class="icon-text"><strong>Cor: </strong><?= $color ?></p>
+                <p class="icon-text">Cor: <b><?= $color ?></b></p>
 
             </div>
         <?php }
         if ( ! empty( $doors ) ) { ?>
             <div class=" col s12 m4 l6 vehicle-details">
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-car-door-32.png" class="vehicle-details-icon responsive-img">
-                <p class="icon-text"><strong>Portas: </strong><?= $doors ?></p>
+                <p class="icon-text">Portas <b><?= $doors ?></b></p>
 
             </div>
         <?php }
         if ( ! empty( $fuel ) ) { ?>
             <div class=" col s12 m4 l6 vehicle-details">
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-gas-station-32.png" class="vehicle-details-icon responsive-img">
-                <p class="icon-text"><strong>Combustível: </strong><?= $fuel ?></p>
+                <p class="icon-text">Combustível: <b><?= $fuel ?></b></p>
 
             </div>
         <?php }
         if ( ! empty( $exchange ) ) { ?>
             <div class=" col s12 m4 l6 vehicle-details">
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-gearshift-32.png" class="vehicle-details-icon responsive-img">
-                <p class="icon-text"><strong>Câmbio: </strong><?= $exchange ?></p>
+                <p class="icon-text">Câmbio: <b><?= $exchange ?></b></p>
 
             </div>
         <?php }
         if ( ! empty( $conservation ) ) { ?>
             <div class=" col s12 m4 l6 vehicle-details">
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-car-compact-32.png" class="vehicle-details-icon responsive-img">
-                <p class="icon-text"><strong>Conservação: </strong><?= $conservation ?></p>
+                <p class="icon-text">Conservação: <b><?= $conservation ?></b></p>
 
             </div>
         <?php }
         if ( ! empty( $final_place ) ) { ?>
             <div class=" col s12 m4 l6 vehicle-details">
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-placa-32.png" class="vehicle-details-icon responsive-img">
-                <p class="icon-text"><strong>Final Placa: </strong><?= $final_place ?></p>
+                <p class="icon-text">Final Placa: <b><?= $final_place ?></b></p>
 
             </div>
         <?php }
         if ( ! empty( $motor ) ) { ?>
             <div class=" col s12 m4 l6 vehicle-details">
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-motor-32.png" class="vehicle-details-icon responsive-img">
-                <p class="icon-text"><strong>Motor: </strong><?= $motor ?></p>
+                <p class="icon-text">Motor: <b><?= $motor ?></b></p>
 
             </div>
         <?php }
@@ -169,7 +169,7 @@ function display_details( $year, $km, $color, $doors, $fuel, $exchange, $conserv
             <div class=" col s12 m4 l6 vehicle-details">
 
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-sports-car-32.png" class="vehicle-details-icon responsive-img">
-                <p class="icon-text"><strong>Fabricante: </strong><?= $fabricante ?></p>
+                <p class="icon-text">Fabricação: <b><?= $fabricante ?></b></p>
 
             </div>
         <?php }
@@ -177,28 +177,28 @@ function display_details( $year, $km, $color, $doors, $fuel, $exchange, $conserv
             <div class=" col s12 m4 l6 vehicle-details">
 
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-sports-car-32.png" class="vehicle-details-icon responsive-img">
-                <p class="icon-text"><strong>Modelo: </strong><?= $model ?></p>
+                <p class="icon-text">Modelo: <b><?= $model ?></b></p>
 
             </div>
         <?php }
         if (  $categoria != '' ) { ?>
             <div class=" col s12 m4 l6 vehicle-details">
                 <img src="<?= get_bloginfo('template_url') ?>/img/icon-sports-car-32.png" class="vehicle-details-icon responsive-img">
-                <p class="icon-text"><strong>Categoria: </strong><?= $categoria ?></p>
+                <p class="icon-text">Categoria: <b><?= $categoria ?></b></p>
 
             </div>
         <?php }
         if ( ! empty( $uf ) ) { ?>
             <div class=" col s12 m4 l6 vehicle-details">
                 <p>
-                    <i class="material-icons small left vehicle-details-icon">insert_invitation</i><strong>Estado: </strong> <?= $uf ?>
+                    <i class="material-icons small left vehicle-details-icon">insert_invitation</i>Estado: <b><?= $uf ?></b>
                 </p>
             </div>
         <?php }
         if ( ! empty( $city ) ) { ?>
             <div class=" col s12 m4 l6 vehicle-details">
                 <p>
-                    <i class="material-icons small left vehicle-details-icon">insert_invitation</i><strong>Cidade: </strong> <?= $city ?>
+                    <i class="material-icons small left vehicle-details-icon">insert_invitation</i>Cidade: <b><?= $city ?></b>
                 </p>
             </div>
         <?php }?>

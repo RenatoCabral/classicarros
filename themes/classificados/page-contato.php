@@ -38,7 +38,7 @@
                                 <label for="email">Email</label>
                             </div>
                             <div class="input-field col s12 m12 l6">
-                                <i class="material-icons prefix">account_box</i>
+                                <i class="material-icons prefix">assignment_ind</i>
                                 <input id="cpf" type="text" class="validate">
                                 <label for="cpf">CPF</label>
                             </div>
