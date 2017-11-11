@@ -479,22 +479,26 @@ select {
 
 .description-vehicle p {
     font-size: 25px !important;
-    color: #900;
+    color: #b52614!important;
+    font-weight: bold!important;
     border-bottom: 2px solid #1d7d74;
 }
 
 .vehicle-details p {
-    font-size: 13px !important;
+    /*font-size: 18px !important;*/
+    /*background-color: #00b0ff;*/
 }
 
 .vehicle-details-icon {
     margin-right: 8px !important;
+    float: left;
+    top: 10px;
+    position: relative;
 }
 
-.vehicle-details-icon:hover {
-    color: #1d7d74!important;
+.icon-text{
+    float: left;
 }
-
 .vehicle-details-tabs a {
     color: #000000 !important;
 }
@@ -961,7 +965,7 @@ select {
     }
 
     .description-vehicle, .description-vehicle p {
-        border: none;
+        /*border: none;*/
     }
 
     .anuncie-mobile {
@@ -1003,6 +1007,23 @@ select {
         margin-top: 12px !important;
     }
 }
+
+/*@media screen and (max-width: 1170px){*/
+    /*.vehicle-details p{*/
+        /*!*font-size: 15px!important;*!*/
+        /*background-color: #00b0ff;*/
+        /*font-size: 14px!important;*/
+    /*}*/
+
+/*}*/
+
+/*@media screen and (min-width: 1130px){*/
+    /*.vehicle-details p{*/
+        /*!*font-size: 12px!important;*!*/
+        /*background-color: #0A246A;*/
+    /*}*/
+
+/*}*/
 
 
 

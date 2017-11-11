@@ -7,17 +7,22 @@ setPostViews( $post_id );
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col s12 m6 l6">
-                <div class=" col s12 m12 l12 description-vehicle">
-                    <h1><?php the_title(); ?> </h1>
-                    <p class="price-veiculo"><strong>R$ <?= number_format( $price, 2, ',', '.' ); ?></strong></p>
-                </div>
+            <div class="col s12 m12 l12">
+                <div class="col s12 m12 l6">
+                    <div class=" col s12 m12 l12 description-vehicle">
+                        <h1><?php the_title(); ?> </h1>
+                        <p class="price-veiculo">R$ <?= number_format( $price, 2, ',', '.' ); ?></p>
+                    </div>
 
-				<?php
-				$categoria  = is_array( $categorias ) ? $categorias[0]->name : '';
-				display_details( $year, $km, $color, $doors, $fuel, $exchange, $conservation, $final_place, $motor, $post_id, $fabricante, $model, $uf, $city, $categoria ); ?>
+                    <?php
+                    $categoria  = is_array( $categorias ) ? $categorias[0]->name : '';
+                    display_details( $year, $km, $color, $doors, $fuel, $exchange, $conservation, $final_place, $motor, $post_id, $fabricante, $model, $uf, $city, $categoria ); ?>
+                </div>
+                <div class="col s12 m12 l6">
+                    <?php display_gallery($post_id); ?>
+                </div>
             </div>
-			<?php display_gallery($post_id); ?>
+<!--			--><?php //display_gallery($post_id); ?>
         </div>
     </div>
 

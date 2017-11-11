@@ -64,13 +64,11 @@ function get_motors() {
 function get_fuels() {
     $fuels = [
         'Álcool'        => 'Álcool',
-        'Álcool e gás natural' => 'Álcool e gás natural',
         'Diesel'        => 'Diesel',
         'Flex'          => 'Flex',
-        'Gás natural' => 'Gás natural',
+        'GNV'           => 'GNV',
         'Gasolina'      => 'Gasolina',
-        'Gasolina e álcool'      => 'Gasolina e álcool',
-        'Gasolina e eletrico' => 'Gasolina e eletrico',
+        'Híbrido'       => 'Híbrido'
 
     ];
     return $fuels;
