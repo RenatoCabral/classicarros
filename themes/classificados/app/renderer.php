@@ -132,7 +132,7 @@ function display_details( $year, $km, $color, $doors, $fuel, $exchange, $conserv
         <?php }
         if ( ! empty( $fuel ) ) { ?>
             <div class=" col s12 m4 l6 vehicle-details">
-                <img src="<?= get_bloginfo('template_url') ?>/img/icon-gas-station-32.png" class="vehicle-details-icon responsive-img">
+                <img src="<?= get_bloginfo('template_url') ?>/img/icon-gasoline-pump-32.png" class="vehicle-details-icon responsive-img">
                 <p class="icon-text">Combustível: <b><?= $fuel ?></b></p>
 
             </div>

@@ -424,7 +424,7 @@ select {
 /*********************footer***********************/
 .title_footer {
     border-top: 5px solid #1d7d74;
-    width: 300px;
+    /*width: 300px;*/
     padding: 10px;
 }
 
@@ -444,9 +444,9 @@ select {
     color: #000000!important;
 }
 
-.div-footer{
-    min-height: 220px!important;
-}
+/*.cards_footer{*/
+    /*min-height: 320px!important;*/
+/*}*/
 
 /****************Fim footer*****************/
 
@@ -930,9 +930,9 @@ select {
     line-height: 30px;
 }
 
-.card-vehicles{
-    min-height: 509px!important;
-}
+/*.card-vehicles{*/
+    /*min-height: 509px!important;*/
+/*}*/
 
 .img-slider{
     margin: 0 auto;

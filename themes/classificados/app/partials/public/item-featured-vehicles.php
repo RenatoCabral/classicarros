@@ -8,7 +8,7 @@ $year       = get_post_meta( $post_id, 'year', true );
 
 
 $thumb_id  = get_post_thumbnail_id( $post_id );
-$thumb_url = wp_get_attachment_image_src( $thumb_id, 'thumb-single-slide-veiculo' );
+$thumb_url = wp_get_attachment_image_src( $thumb_id, 'thumb-post-vehicle' );
 $img_src   = has_post_thumbnail() ? $thumb_url[0] : get_bloginfo( 'template_directory' ) . "/img/no-image-veiculo-thumb.jpg";
 
 ?>
@@ -29,7 +29,8 @@ $img_src   = has_post_thumbnail() ? $thumb_url[0] : get_bloginfo( 'template_dire
             <a class="dados-veiculos" href="<?php the_permalink() ?>">
                 <p class="cod-vehicle">Cod. <?= $post_id ?></p>
                 <p class="price">R$ <?= number_format( $price, 2, ',', '.' ); ?></p>
-                <p class="card-content-title"><?= the_title() ?></p>
+<!--                <p class="card-content-title">--><?//= the_title() ?><!--</p>-->
+                <p class="card-content-title"><?php wp_customTitleVehicles(15); ?></p>
                 <p><?= $km ?> Km</p>
                 <p><?= $fabricante ?> - <?= $year ?></p>
 

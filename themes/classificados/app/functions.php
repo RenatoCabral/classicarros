@@ -506,3 +506,15 @@ function wp_customTitle($limit){
 }
 
 
+//limitar caracteres título post veiculos
+
+function wp_customTitleVehicles($limit){
+    $title = get_the_title(isset($post->ID));
+    if (strlen($title) > $limit){
+        $title = substr($title, 0, $limit) . '...';
+    }
+    echo $title;
+}
+
+
+
