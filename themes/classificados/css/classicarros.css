@@ -232,7 +232,20 @@ select {
 
 .cards_news_home:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
 
+.icon-finance-fipe-home{
+    margin: 0 auto;
+    display: block;
+}
+
+.content-fipe-home, .content-sale-car-home{
+    text-align: center;
+}
+
+.btn-consulta-fipe-card, .btn-sale-car-home{
+    margin: 0 auto;
+    display: table;
 }
 
 /******************all_news**************/
@@ -444,10 +457,6 @@ select {
     color: #000000!important;
 }
 
-/*.cards_footer{*/
-    /*min-height: 320px!important;*/
-/*}*/
-
 /****************Fim footer*****************/
 
 /*********** detalhes dos veiculos**********/
@@ -484,10 +493,6 @@ select {
     border-bottom: 2px solid #1d7d74;
 }
 
-.vehicle-details p {
-    /*font-size: 18px !important;*/
-    /*background-color: #00b0ff;*/
-}
 
 .vehicle-details-icon {
     margin-right: 8px !important;
@@ -758,7 +763,6 @@ select {
     font-size: 30px;
 }
 
-/*select2 searchform*/
 
 .select2-container--default .select2-selection--single {
     height: 38px;
@@ -930,10 +934,6 @@ select {
     line-height: 30px;
 }
 
-/*.card-vehicles{*/
-    /*min-height: 509px!important;*/
-/*}*/
-
 .img-slider{
     margin: 0 auto;
 }
@@ -1008,22 +1008,7 @@ select {
     }
 }
 
-/*@media screen and (max-width: 1170px){*/
-    /*.vehicle-details p{*/
-        /*!*font-size: 15px!important;*!*/
-        /*background-color: #00b0ff;*/
-        /*font-size: 14px!important;*/
-    /*}*/
 
-/*}*/
-
-/*@media screen and (min-width: 1130px){*/
-    /*.vehicle-details p{*/
-        /*!*font-size: 12px!important;*!*/
-        /*background-color: #0A246A;*/
-    /*}*/
-
-/*}*/
 
 
 
