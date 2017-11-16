@@ -427,8 +427,7 @@ select {
 }
 
 .dados-veiculos p {
-    color: #000;
-!important;
+    color: #000 !important;
 }
 
 
@@ -437,7 +436,6 @@ select {
 /*********************footer***********************/
 .title_footer {
     border-top: 5px solid #1d7d74;
-    /*width: 300px;*/
     padding: 10px;
 }
 
@@ -449,12 +447,20 @@ select {
     background-color: inherit !important;
 }
 
+.cards_footer{
+    min-height: 240px;
+}
+
 .cards_footer:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .cards_footer h5, p{
     color: #000000!important;
+}
+
+.footer-copyright{
+    background-color: #1d7d74!important;
 }
 
 /****************Fim footer*****************/
@@ -569,7 +575,6 @@ select {
 }
 
 .tab-informacoes-opcionais {
-    /*font-size: 25px!important;*/
     border-top: 2px solid #1d7d74 !important;
 }
 
@@ -645,11 +650,28 @@ select {
 
 .title-post-news{
     font-size: 20px;
+
 }
 
 .title-post-news a{
-    color: #1d7d74!important;
+    color: rgba(0, 0, 0, 0.87);
 }
+
+.title-post-news a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.card-content-blog a{
+    color: rgba(0, 0, 0, 0.87);
+
+}
+
+.card-content-blog a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
 
 /*********************advanced search****************/
 
@@ -852,6 +874,7 @@ select {
 .select2-container--default .select2-results>.select2-results__options{
     max-height: 224px !important;
 }
+
 /*search form blog*/
 .div-searchform-blog {
     text-align: center;

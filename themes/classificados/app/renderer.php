@@ -23,6 +23,7 @@ function render_slide_home() {
 
 }
 
+                                       /*posts noticias home*/
 function render_blog( $img_src ) {
     ?>
 
@@ -44,25 +45,28 @@ function render_blog( $img_src ) {
 
     <div class="col s12 m12 l6">
         <span class="card-title title-post-news">
-             <a href="<?php the_permalink(); ?>">
-                 <?php wp_customTitle(45); ?>
+             <a class="header" href="<?php the_permalink(); ?>">
+                 <?php wp_customTitle(50); ?>
                  <!--                --><?php //the_title(); ?>
              </a>
         </span>
         <div class="card horizontal z-depth-1 cards_news_home">
             <div class="card-image image-post-blog waves-effect waves-block waves-light">
                 <a href="<?php the_permalink(); ?>">
-                    <img src="<?= $img_src ?>">
+                    <img class="img-responsive" src="<?= $img_src ?>">
                 </a>
             </div>
             <div class="card-stacked">
-                <div class="card-content news_paragraph">
+                <div class="card-content card-content-blog">
                     <!--                    <span class="card-title activator grey-text text-darken-4">-->
                     <!--                        <a href="--><?php //the_permalink(); ?><!--"></a>-->
                     <!--                        --><?php //the_title(); ?>
                     <!--                    </span>-->
                     <p><?= get_the_date(); ?></p>
-                    <?php echo(limit_words(get_the_content(),10)); ?>
+                    <a href="<?php the_permalink(); ?>">
+                        <?php echo(limit_words(get_the_content(),17)); ?>
+                    </a>
+
                     <!--                    <p>--><?php //the_content(); ?><!--</p>-->
                 </div>
             </div>

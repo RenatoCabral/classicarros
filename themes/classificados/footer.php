@@ -6,34 +6,42 @@
                 <div class="col s12 m4 l4">
                     <div class="card cards_footer">
                         <div class="card-content div-footer">
-                            <h5 class="title_footer">Sobre nós</h5>
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.
-                                Cursus dolore voluptates nullam, vivamus veniam, voluptas asperiores asperiores. Magnis in, tenetur. Ipsum voluptate. In nibh illo, porttitor,</p>
+                            <h5 class="title_footer">Empresa</h5>
+                            <p><a href="">Sobre ClassiCarros</a></p>
+                            <p><a href="">Entre em Contato</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col s12 m4 l4">
                     <div class="card cards_footer">
                         <div class="card-content div-footer">
-                            <h5 class="title_footer">Título</h5>
+                            <h5 class="title_footer">Atendimento</h5>
+                            <p><a href="">Dúvidas</a></p>
+                            <p><a href="">Consulta FIPE</a></p>
+                            <p><a href="">Veículos</a></p>
+                            <p><a href="">Notícias</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card cards_footer">
+                        <div class="card-content div-footer">
+                            <h5 class="title_footer">
+                                <img class="responsive-img"src="<?= get_bloginfo('template_url') ?>/img/logo-footer.png" >
+                            </h5>
                             <p>I am a very simple card. I am good at containing small bits of information.
                                 I am convenient because I require little markup to use effectively.
+                                Unde eveniet excepturi reprehenderit class tincidunt ridiculus vitae penatibus, magna, vestibulum minim, curae, nostrud, vero, animi! Necessitatibus molestiae. Excepteur libero?
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m4 l4">
-                    <div class="card cards_footer">
-                        <div class="card-content div-footer">
-                            <h5 class="title_footer">Título</h5>
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2017 Copyright Renato Carvalho Cabral
+<!--                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
                 </div>
-    <!--            <p>Copyright Renato</p>-->
-
             </div>
         </div>
     </footer>
