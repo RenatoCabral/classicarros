@@ -7,8 +7,8 @@
                     <div class="card cards_footer">
                         <div class="card-content div-footer">
                             <h5 class="title_footer">Empresa</h5>
-                            <p><a href="">Sobre ClassiCarros</a></p>
-                            <p><a href="">Entre em Contato</a></p>
+                            <p><a class="link-menu transition-300ms " href="<?= get_permalink( get_page_by_path( 'sobre' ) ) ?>">Sobre ClassiCarros</a></p>
+                            <p><a class="link-menu transition-300ms " href="<?= get_permalink( get_page_by_path( 'contato' ) ) ?>">Entre em Contato</a></p>
                         </div>
                     </div>
                 </div>
@@ -16,10 +16,10 @@
                     <div class="card cards_footer">
                         <div class="card-content div-footer">
                             <h5 class="title_footer">Atendimento</h5>
-                            <p><a href="">Dúvidas</a></p>
-                            <p><a href="">Consulta FIPE</a></p>
-                            <p><a href="">Veículos</a></p>
-                            <p><a href="">Notícias</a></p>
+                            <p><a class="link-menu transition-300ms " href="<?= get_permalink( get_page_by_path( 'duvidas' ) ) ?>">Dúvidas</a></p>
+                            <p><a class="link-menu transition-300ms " target="_blank" href="http://veiculos.fipe.org.br/">Consulta Fipe</a></p>
+                            <p><a class="link-menu transition-300ms " href="<?= get_post_type_archive_link('veiculo'); ?>">Veículos</a></p>
+                            <p> <a class="link-menu transition-300ms " href="<?= get_post_type_archive_link('blog'); ?>">Blog</a></p>
                         </div>
                     </div>
                 </div>

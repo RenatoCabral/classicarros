@@ -9,7 +9,6 @@ add_image_size('full-single-slide-veiculo', '728','380', true);
 add_image_size('thumb-single-slide-veiculo', '150','150', true);
 add_image_size('thumb-post-vehicle', '400','400', true);
 
-
 add_action( 'init', 'post_type_veiculo' );
 add_action( 'init', 'post_type_blog' );
 add_action( 'init', 'post_type_slides' );

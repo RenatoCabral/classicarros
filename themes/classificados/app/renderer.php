@@ -484,8 +484,10 @@ function render_search_veiculo( $code = '' ) {
                 $search_loop->the_post();
                 require 'partials/public/item-featured-vehicles.php';
             }
-            post_pagination();
-        } else {
+            ?>
+            <div class="div-pagination"><?php post_pagination(); ?> </div>
+
+        <?php } else {
             echo '<p style="text-align: center">Não há veículos de acordo com sua pesquisa</p>';
         }
     }

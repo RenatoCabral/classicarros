@@ -8,7 +8,8 @@
 					the_post();
 					require 'app/partials/public/item-featured-vehicles.php';
 				}
-				post_pagination(); ?>
+				 ?>
+                <div class="div-pagination"><?php post_pagination(); ?> </div>
             </div>
 
         </div>

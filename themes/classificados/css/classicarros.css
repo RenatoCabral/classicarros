@@ -463,6 +463,11 @@ select {
     background-color: #1d7d74!important;
 }
 
+.div-footer a:hover{
+    text-decoration-color: #1d7d74!important;
+    text-decoration: underline;
+}
+
 /****************Fim footer*****************/
 
 /*********** detalhes dos veiculos**********/
@@ -629,7 +634,7 @@ select {
 }
 
 .div-single-date {
-    width: 200px;
+    width: 115px;
     margin: 0 auto;
 }
 
