@@ -22,13 +22,13 @@
                         <div class="row">
                             <div class="input-field col s12 m12 l6">
                                 <i class="material-icons prefix">phone_iphone</i>
-                                <input id="telephone" type="tel" class="validate">
-                                <label for="telephone">Celular</label>
+                                <input required id="icon_prefix" name="idx_user_phone" type="text" class="validate phone">
+                                <label for="icon_prefix">Celular</label>
                             </div>
                             <div class="input-field col s12 m12 l6">
                                 <i class="material-icons prefix">phone</i>
-                                <input id="telephone" type="tel" class="validate">
-                                <label for="telephone">Telefone</label>
+                                <input required id="icon_prefix" name="idx_user_phone" type="text" class="validate phone">
+                                <label for="icon_prefix">Telefone</label>
                             </div>
                         </div>
                         <div class="row">

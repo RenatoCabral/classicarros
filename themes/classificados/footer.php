@@ -55,7 +55,6 @@
 <script src="<?php bloginfo('template_directory') ?>/js/jquery.fancybox.js"></script>
 <script src="<?php bloginfo('template_directory') ?>/js/jquery.mask.min.js"></script>
 <script src="<?php bloginfo('template_directory') ?>/js/searchform.js"></script>
-
 <script src="<?php bloginfo('template_directory') ?>/js/app.js"></script>
 
 <?php wp_footer(); ?>
