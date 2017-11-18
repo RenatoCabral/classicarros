@@ -6,7 +6,7 @@
         <div class="col s12 m12 l12">
             <div class="title-news-date">
                 <!--Função que irá exibir o título do post-->
-                <h1><?php the_title(); ?></h1>
+                <h1 class="title-single-blog"><?php the_title(); ?></h1>
 
                     <div class="div-single-date">
                         <i class="material-icons small">today</i>

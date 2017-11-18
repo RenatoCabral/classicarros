@@ -67,4 +67,3 @@ function makeActiveMenu() {
         $('[data-menu="' + currentUrl + '"]').addClass('active');
     }
 }
-
